@@ -7,5 +7,5 @@ change_x(4) # Change X to 4
 print("x is: ",x)
 
 # Change X to whatever you want without changing change_x function's code
-change_x("Hello") # Change X to 4
+change_x("Hello") # Change X to Hello
 print("x is: ",x)
