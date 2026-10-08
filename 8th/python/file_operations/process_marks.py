@@ -1,7 +1,7 @@
-# Just splitting was not helpful
-# We get `\n`
-# We use `strip()` to removing whitespaces from the beginning and the end of the string
-#
+# Finally we are ready to process the data
+
+def avg(marklist):
+    return sum(marklist)/len(marklist)
 
 all_marks = []
 with open("marks.csv", "r") as f:
@@ -11,3 +11,5 @@ with open("marks.csv", "r") as f:
         all_marks.append(int(marks))
 
 print(all_marks)
+
+print("Average marks : ", avg(all_marks))
